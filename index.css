@@ -50,22 +50,6 @@ button {
     text-align: center;
 }
 
-/* input {
-    all: unset;
-    display: inline-block;
-    background-color: #D5D4D8;
-    color: #1F2937;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    border-radius: 6px;
-    border: none;
-    width: 170px;
-    height: 34px;
-    text-align: center;
-    
-} */
-
 hr {
     background-color: #2F3E53;
     height: 2px;
