@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body {
+    width: auto;
+    color: white;
+    background-color: black;
+}
+
+section {
+    margin: 64px;
+    background-color: #1F2937;
+    padding: 50px;
+    width: 350px;
+    height: 300px;
+}
+
+h1 {
+    font-family: Karla, sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+    line-height: 32px;
+}
+
+mark {
+    background-color: #1F2937;
+    color: #4ADF86
+}
+
+h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D5D4D8;
+    margin-bottom: 50px;
+}
+
+button {
+    all: unset;
+    display: inline-block;
+    background-color: #10B981;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    width: 170px;
+    height: 36px;
+    text-align: center;
+}
+
+/* input {
+    all: unset;
+    display: inline-block;
+    background-color: #D5D4D8;
+    color: #1F2937;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    width: 170px;
+    height: 34px;
+    text-align: center;
+    
+} */
+
+hr {
+    background-color: #2F3E53;
+    height: 2px;
+    border: none;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.password-field {
+    display: inline-block;
+    align-content: center;
+    background-color: #273549;
+    color: #4ADF86;
+    width: 165px;
+    height: 32px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#pass-two-el {
+    margin-left: 15px;
+}
