@@ -16,12 +16,12 @@ let passwordTwo = "";
 btnEl.addEventListener("click", function() {
     passwordOne = "";
     passwordTwo = "";
-    for (i = 0; i < 15; i++) {
+    for (let i = 0; i < 15; i++) {
         let randomNumber = Math.floor(Math.random() * characters.length)
         passwordOne += characters[randomNumber]
     }
     
-    for (i = 0; i < 15; i++) {
+    for (let i = 0; i < 15; i++) {
         let randomNumber = Math.floor(Math.random() * characters.length)
         passwordTwo += characters[randomNumber]
     }
